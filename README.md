@@ -7,7 +7,7 @@ This is beta-version.
 This program estimates the mixed chimerism for the bam file from blood or marrow cells after allogeneic stem cell transplatation. 
 
 
-#  
+#  Material requirements
 
 ## BAM files
 This program takes two arguments: PATH_TO_RECIPIENT_BAM_FILE and PATH_TO_CHIMERA_BAM_FILE.
@@ -32,7 +32,9 @@ R packages: rstan, ggmcmc, tidyverse
 Execute the following command once to install these packages. 
 
 if(!require("rstan")){install.packages("rstan")}
+
 if(!require("tidyverse")){install.packages("tidyverse")}
+
 if(!require("ggmcmc")){install.packages("ggmcmc")}
 
 #  Usage of the command
