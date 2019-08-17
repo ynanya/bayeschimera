@@ -13,6 +13,7 @@ This program estimates the mixed chimerism for the bam file from blood or marrow
 This program takes two bam files as arguments: PATH_TO_RECIPIENT_BAM_FILE and PATH_TO_CHIMERA_BAM_FILE. 
 
 PATH_TO_RECIPIENT_BAM_FILE: path to bam file of the samples consisting of purely recipinet DNA. For example, tumor samples before transplant or normal control specimens (oral swab, skin fibroblast, non-tumor-containing T cells...) can be used.
+
 PATH_TO_CHIMERA_BAM_FILE: path to bam file of blood or marrow cells after allogeneic transplantation for whose chimerism is calculated in this program. The position coordinates should be matched among bamfiles and SNPs list file. 
 
 
