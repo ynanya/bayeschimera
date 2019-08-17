@@ -39,7 +39,9 @@ if(!require("ggmcmc")){install.packages("ggmcmc")}
 chimerism.sh [OPTIONS] PATH_TO_RECIPIENT_BAM_FILE  PATH_TO_CHIMERA_BAM_FILE
 
 OPTIONS:
+
 [-d dir] : path to SNPs list file.
+
 [-h]: show this message.
 
 
